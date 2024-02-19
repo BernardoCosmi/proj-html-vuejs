@@ -1,16 +1,25 @@
 <script>
-import ExampleName from "./components/ExampleName.vue"
+import AppHeaderNav from "./components/AppHeader/AppHeaderNav.vue"
+import AppHeaderContent from "./components/AppHeader/AppHeaderContent.vue"
+import AppMain from "./components/AppMain/AppMain.vue"
+import AppFooter from "./components/AppFooter/AppFooter.vue"
+
+
   export default{
     components: {
-      ExampleName
+      AppHeaderNav,
+      AppMain,
+      AppFooter
     }
   }
 </script>
 
 <template>
-  
+  <AppHeaderNav/>
+  <AppMain/>
+  <AppFooter/>
 </template>
 
-<style scoped>
+<style>
 
 </style>

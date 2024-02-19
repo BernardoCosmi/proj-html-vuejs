@@ -2,12 +2,12 @@
 // import
 
 export default {
-  name: "",
+  name: "AppFooter",
 };
 </script>
 
 <template>
-  <h1>Hi I'm component</h1>
+
 </template>
 
 <style lang="scss" scoped>

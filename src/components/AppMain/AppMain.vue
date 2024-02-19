@@ -1,13 +1,29 @@
 <script>
-// import
+import SectionOne from "./AppMainSection/SectionOne.vue"
+import SectionTwo from "./AppMainSection/SectionTwo.vue"
+import SectionThree from "./AppMainSection/SectionThree.vue"
+import SectionFour from "./AppMainSection/SectionFour.vue"
+import SectionFive from "./AppMainSection/SectionFive.vue"
+import SectionSix from "./AppMainSection/SectionSix.vue"
+
+
 
 export default {
   name: "AppMain",
+  components:{
+    SectionOne,
+    SectionTwo,
+    SectionThree,
+    SectionFour,
+    SectionFive,
+    SectionSix,
+
+  }
 };
 </script>
 
 <template>
-  <h1>Hi I'm component</h1>
+  
 </template>
 
 <style lang="scss" scoped>

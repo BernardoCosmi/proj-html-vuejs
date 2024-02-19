@@ -2,7 +2,7 @@
 // import
 
 export default {
-  name: "",
+  name: "SectionOne",
 };
 </script>
 
