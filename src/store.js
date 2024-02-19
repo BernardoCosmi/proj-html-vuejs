@@ -32,5 +32,32 @@ export const store = reactive({
             label: 'Shop', 
             link: '#' 
         }
-      ]
+    ],
+    startNowCards:[
+        {
+            imgURL: "01",
+            title: "Idea Discussion",
+            text: "Get teamed up with the specialists who work and teach coding for years at famous universities.",
+            link: "#"
+        },
+        {
+            imgURL: "02",
+            title: "Web Developement",
+            text: "Leam to start building a webpage from scratch. You decide your own pace, course and speed.",
+            link: "#"
+        },
+        {
+            imgURL: "03",
+            title: "System Administration",
+            text: "Learners are encouraged to study the mechanism and structure of system administration.",
+            link: "#"
+        },
+        {
+            imgURL: "04",
+            title: "Card Title 1",
+            text: "Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness",
+            link: "#"
+        },
+    ]
+
 });

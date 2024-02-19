@@ -18,7 +18,7 @@ export default {
 <template>
   <header class="container-fluid position-relative">
 
-
+    <!-- Menu -->
     <div class="nav-container d-flex row align-items-between py-3">
 
       <!-- Logo -->
@@ -62,6 +62,8 @@ export default {
       </div>
 
     </div>
+
+    <!-- Content -->
     <div class="nav-container">
       <AppHeaderContent />
     </div>
