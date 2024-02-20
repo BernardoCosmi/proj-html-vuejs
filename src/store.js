@@ -58,6 +58,12 @@ export const store = reactive({
             text: "Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness",
             link: "#"
         },
+    ],
+    infoDataArray: [
+        { info: "Finished session", data: "1.962" },
+        { info: "Enrolled learners", data: "3092+" },
+        { info: "Online instructors", data: "200" },
+        { info: "Satisfaction rate", data: "100%" }
     ]
 
 });
