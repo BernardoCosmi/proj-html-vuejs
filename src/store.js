@@ -121,5 +121,49 @@ export const store = reactive({
             studentsNumber:"76 Students"
         },
     ],
-
+    upcomingEvents:[
+        {
+            name: "Storytelling Workshop",
+            place: "Texas, US",
+            day: "22",
+            month: "NOV",
+            link: "#"
+          },
+          {
+            name: "Painting Art Contest 2020",
+            place: "New York, US",
+            day: "10",
+            month: "OCT",
+            link: "#"
+          },
+          
+          {
+            name: "International Art Fair 2020",
+            place: "Hamburg, Germany",
+            day: "23",
+            month: "NOV",
+            link: "#"
+          },
+          {
+            name: "Street Performance: Call for Artist",
+            place: "Illinois, US",
+            day: "15",
+            month: "DEC",
+            link: "#"
+          },
+          {
+            name: "Consumer Food Safety Education Conference",
+            place: "Illinois, US",
+            day: "22",
+            month: "JUL",
+            link: "#"
+          },
+          {
+            name: "How meditation improve your mental health?",
+            place: "Dubai",
+            day: "12",
+            month: "AUG",
+            link: "#"
+          }
+    ]
 });

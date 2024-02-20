@@ -4,6 +4,8 @@ import SectionTwo from "./AppMainSection/SectionTwo.vue"
 import SectionThree from "./AppMainSection/SectionThree.vue"
 import SectionFour from "./AppMainSection/SectionFour.vue"
 import SectionFive from "./AppMainSection/SectionFive.vue"
+import SectionSix from "./AppMainSection/SectionSix.vue"
+
 
 
 
@@ -19,6 +21,7 @@ export default {
     SectionThree,
     SectionFour,
     SectionFive,
+    SectionSix
   },
   data() {
     return {
@@ -34,6 +37,7 @@ export default {
   <SectionThree/>
   <SectionFour/>
   <SectionFive/>
+  <SectionSix/>
 </template>
 
 <style lang="scss" scoped>
