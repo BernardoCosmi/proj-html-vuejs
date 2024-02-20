@@ -64,6 +64,62 @@ export const store = reactive({
         { info: "Enrolled learners", data: "3092+" },
         { info: "Online instructors", data: "200" },
         { info: "Satisfaction rate", data: "100%" }
-    ]
+    ],
+    coursesCard:[
+        {
+            courseImg:"course-02-480x298.jpg",
+            price:"$40.00",
+            profProPic:"73ee246daf47502812ccefc84bf02898.jpeg",
+            profName: "Blanche Fields",
+            title:"Learning to Write as a Professional Author",
+            lessonsNumber:"20 Lessons",
+            studentsNumber:"50 Students"
+        },
+        {
+            courseImg:"stock-full-hd-03-480x298.jpg",
+            price:"Free",
+            profProPic:"d0d504142acfde820eef2f11feea6253.jpeg",
+            profName: "Maggie Strickland",
+            title:"Customer-centric Info-Tech Strategies",
+            lessonsNumber:"24 Lessons",
+            studentsNumber:"769 Students"
+        },
+        {
+            courseImg:"stock-full-hd-04-480x298.jpg",
+            price:"$19.00",
+            profProPic:"d0d504142acfde820eef2f11feea6253.jpeg",
+            profName: "Maggie Strickland",
+            title:"Open Programming Courses for Everyone: Python",
+            lessonsNumber:"17 Lessons",
+            studentsNumber:"62 Students"
+        },
+        {
+            courseImg:"stock-full-hd-06-480x298.jpg",
+            price:"$26.00",
+            profProPic:"73ee246daf47502812ccefc84bf02898.jpeg",
+            profName: "Blanche Fields",
+            title:"Academic Listening and Note- taking",
+            lessonsNumber:"14 Lessons",
+            studentsNumber:"67 Students"
+        },
+        {
+            courseImg:"course-featured-image-01-480x298.jpg",
+            price:"$39.00",
+            profProPic:"73ee246daf47502812ccefc84bf02898.jpeg",
+            profName: "Blanche Fields",
+            title:"Master jQuery in a Short Period of Time",
+            lessonsNumber:"6 Lessons",
+            studentsNumber:"51 Students"
+        },
+        {
+            courseImg:"stock-full-hd-05-480x298.jpg",
+            price:"$59.00",
+            profProPic:"73ee246daf47502812ccefc84bf02898.jpeg",
+            profName: "Blanche Fields",
+            title:"Introduction to Javascript for Beginners",
+            lessonsNumber:"14 Lessons",
+            studentsNumber:"76 Students"
+        },
+    ],
 
 });
