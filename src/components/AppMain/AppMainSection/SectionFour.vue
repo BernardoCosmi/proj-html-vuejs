@@ -17,10 +17,10 @@ export default {
     <div class="section-container mt-2 pb-5">
 
       <!-- Section Subtitle -->
-      <h5 class="section-subtitle text-uppercase text-center">choose where you'd like to begin</h5>
+      <h5 class="section-subtitle text-center">choose where you'd like to begin</h5>
       
       <!-- Section Title -->
-      <h1 class="section-title text-capitalize text-center mb-4">latest featured <span>courses</span></h1>
+      <h1 class="section-title text-center mb-4">latest featured <span>courses</span></h1>
 
       <!-- Cards -->
       <div class="d-flex flex-wrap">
@@ -72,18 +72,6 @@ export default {
   background-image: linear-gradient(to bottom, white, #F5F5F5); 
   border-radius: 50% 50% / 5% 5%;
   margin-bottom: 20px;
-}
-.section-title{
-  color: #3f3a64 ;
-  font-weight: bold;
-  span{
-    color: #20ad96;
-    font-weight: lighter;
-  }
-}
-.section-subtitle{
-  color: grey;
-  font-size: medium;
 }
 .course-img{
   img{
