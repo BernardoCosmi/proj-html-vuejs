@@ -12,44 +12,82 @@ export default {
 </script>
 
 <template>
-  <div>
-    <div class="section-container my-5">
+  <div class="overlay-effect-container">
+
+    <div class="section-container my-5 pb-4">
+
+      <!-- Subtitle -->
       <h5 class="section-subtitle text-center">
         get in contact now
       </h5>
 
+      <!-- Title -->
       <h1 class="section-title text-center">
         upcoming <span>events</span> 
       </h1>
 
-      <div class="d-flex flex-wrap my-4">
+      <!-- Cards -->
+      <div class="d-flex flex-wrap my-4 justify-content-around">
         <div v-for="(event, index) in store.upcomingEvents" :key="index" class="col-6 d-flex justify-content-between">
 
-            <div class="col-7">
-              <p><i class="fa-regular fa-location-dot" style="color: #808080;"></i>{{ event.place }}</p>
-              <h5>{{ event.name }}</h5>
-            </div>
+            <div class="event-card rounded-3 d-flex col m-3 justify-content-between px-4 py-3">
+              
+              <div class="col-8 mt-3">
+                <span class="position"><i class="fa-solid fa-location-dot me-2" style="color: #808080;"></i>{{ event.place }}</span>
+                <h5 class="mt-3">{{ event.name }}</h5>
+              </div>
 
-            <div class="col-3 text-center">
-              <h1>
-                {{ event.day }}
-              </h1>
-              <h4>
-                {{ event.month }}
-              </h4>
-              <button class="">
-                <a :href="`${event.link}`">Get Ticket</a>
-              </button>
+              <div class="col-4 text-center">
+                <h1 class="event-day">
+                  {{ event.day }}
+                </h1>
+                <h5 class="fw-bold pb-1">
+                  {{ event.month }}
+                </h5>
+                <button class="btn-ticket btn col-12">
+                  Get Ticket
+                </button>
+              </div>
             </div>
-           
         </div>
       </div>
+
+      <!-- Link -->
+      <p class="all-events text-center mt-2 mb-5 pb-5">
+        Excited about our events? <a href="#">View all events &rarr;</a>
+      </p>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 *{
-  border: 1px solid black;
+  // border: 1px solid black;
+}
+.overlay-effect-container{
+  border-radius: 70% 0% / 20% 0%;
+}
+.event-card{
+  background-color: #f8f8f8;
+}
+.btn-ticket{
+  background-color: #20ad96;
+  color: white;
+  font-weight: bolder;
+}
+.position{
+  color: grey;
+}
+.event-day{
+  color: #20ad96;
+  font-weight: 400;
+}
+.all-events{
+  color: #3f3a64;
+  a{
+    text-decoration: none;
+    color: #20ad96;
+    font-weight: bold;
+  }
 }
 </style>
