@@ -12,6 +12,7 @@ export default {
 </script>
 
 <template>
+  
   <div class="container-fluid my-5">
     <div class="section-container py-5">
       <div class="row">

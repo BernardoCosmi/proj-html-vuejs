@@ -92,6 +92,10 @@ export default {
   font-size: small;
   background-color: #20ad96;
 }
+.btn-green:hover{
+  background: #3f3a64;
+  
+}
 figure{
   text-align: center;
   overflow: visible;

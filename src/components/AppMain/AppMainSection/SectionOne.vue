@@ -17,7 +17,7 @@
 
         <!-- Cards -->
         <div class="cards-container d-flex ">
-            <div v-for="(card, index) in store.startNowCards" :key="index" class="col-3 text-center px-3">
+            <div v-for="(card, index) in store.startNowCards" :key="index" class="startnow-card col-3 text-center px-3">
 
                 <img class="my-2" :src="`../../../../src/assets/images/home-5-image-box-${card.imgURL}.png`"
                     alt="card image">
@@ -59,21 +59,20 @@ p {
     font-size: smaller;
 }
 .section-title-container {
-
-
     h1 {
         color: #3f3a64;
         font-weight: bold;
-
         span {
             color: #1fa690;
             font-weight: 400;
         }
     }
-
 }
 .card-link{
     text-decoration: none;
     color: #3f3a64;
+}
+.startnow-card:hover{
+    background: #f8f8f8;
 }
 </style>

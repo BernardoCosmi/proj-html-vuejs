@@ -132,40 +132,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-* {
-  // border: 1px solid black;
-}
-
 .container-fluid {
   background-color: #f8f8f8;
 }
-
 .section-title {
   text-transform: none;
 }
-
-.get-started {}
-
 .btn-green {
   color: white;
   font-weight: bold;
   font-size: small;
   background-color: #20ad96;
 }
+.btn-green:hover{
+  color: #20ad96;
+  background-color: #f8f8f8;
+}
 .get-started {
   position: relative;
   overflow: visible;
-  /* Consente all'elemento di sbordare */
   background-image: url('../../../assets/images/maxcoach-shape-01.png'), url('../../../assets/images/maxcoach-shape-02.png');
   background-size: 12%, 10%;
-  /* Imposta le dimensioni dell'immagine di sfondo */
   background-position: bottom 40% left 10px, bottom 10px right 10px;
-  /* Imposta la posizione dell'immagine di sfondo */
   background-repeat: no-repeat;
-  /* Impedisce la ripetizione delle immagini di sfondo */
-}
-*{
-
 }
 .carousel-card-content{
   background-color: white;

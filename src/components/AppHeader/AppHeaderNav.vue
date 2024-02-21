@@ -94,6 +94,9 @@ div{
   list-style: none;
   gap: 20px;
 }
+.nav-item:hover{
+  font-weight: bold;
+}
 .nav-container {
   max-width: 70%;
   margin: auto;

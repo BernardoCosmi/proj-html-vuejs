@@ -43,7 +43,6 @@ export default {
 .home-container {
   position: relative;
 }
-
 .home-text-container {
   h1 {
     color: #3f3a64;
@@ -57,7 +56,6 @@ export default {
   .download-btn {
     background: #20ad96;
     padding: 10px;
-
     span {
       font-size: smaller;
       color: white;
@@ -66,9 +64,13 @@ export default {
     }
   }
 }
-
+.download-btn:hover{
+      background: #3f3a64;
+}
 figure {
   img {
     max-width: 100%;
   }
-}</style>
+}
+
+</style>

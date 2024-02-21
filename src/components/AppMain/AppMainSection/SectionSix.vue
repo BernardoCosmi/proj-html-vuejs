@@ -12,7 +12,9 @@ export default {
 </script>
 
 <template>
+
   <div class="overlay-effect-container-bg">
+
     <div class="overlay-effect-container">
 
       <div class="section-container mt-5 pb-4">
@@ -57,15 +59,16 @@ export default {
         <p class="all-events text-center mt-2 mb-5 pb-5">
           Excited about our events? <a href="#">View all events &rarr;</a>
         </p>
+
       </div>
+
     </div>
+
   </div>
+
 </template>
 
 <style lang="scss" scoped>
-*{
-  // border: 1px solid black;
-}
 template{
   background-color: #F8F8F8;
 }
@@ -84,6 +87,9 @@ template{
   background-color: #20ad96;
   color: white;
   font-weight: bolder;
+}
+.btn-ticket:hover{
+  background-color: #3f3a64;
 }
 .position{
   color: grey;

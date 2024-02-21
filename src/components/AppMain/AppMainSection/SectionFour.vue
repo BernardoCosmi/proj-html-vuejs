@@ -98,11 +98,17 @@ export default {
 .course-cards:hover{
   background-color: white;
   border-radius: 10px;
+  border: 1px solid grey;
 }
 .view-all-btn{
   color: white;
   font-weight: bold;
   font-size: small;
   background-color: #20ad96;
-}
+
+}  
+.view-all-btn:hover{
+    background-color: #f8f8f8;
+    color: #20ad96 ;
+  }
 </style>
