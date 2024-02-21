@@ -44,7 +44,7 @@
                   <p>
                     MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.
                   </p>
-                  <h6 class="m-3 mt-5">
+                  <h6 class="m-3 mt-4">
                     madley pondore
                   </h6>
                   <p class="pb-4 role">

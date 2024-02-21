@@ -27,7 +27,7 @@ export default {
       </figure>
 
       <!-- Nav Menu -->
-      <div class="col-10">
+      <div class="col-10 col-sm-10 col-md-10">
         <nav>
           <ul class="navbar-nav ">
             <li v-for="menuItem in store.menuItems" :key="menuItem.id" class="nav-item">
